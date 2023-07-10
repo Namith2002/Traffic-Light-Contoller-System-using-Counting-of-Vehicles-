@@ -6,7 +6,7 @@ redTime = 5; % Time in seconds for the red light
 threshold = 50; % Minimum number of vehicles to trigger a change
 
 % Load the video or image sequence
-video = VideoReader('traffic.mp4'); % Replace 'traffic_video.mp4' with the path to your video file
+video = VideoReader('traffic.mp4'); % Replace 'traffic.mp4' with the path to your video file
 frameRate = video.FrameRate;
 
 % Initialize variables
